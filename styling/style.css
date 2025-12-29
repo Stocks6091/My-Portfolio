@@ -1,0 +1,111 @@
+.body{
+    margin: 0;
+    background-color: beige;
+}
+.navbar{
+    display: flex;
+    align-items: center; 
+    background-color: antiquewhite;
+    padding:15px 25px;
+    justify-content: space-between;
+    gap: 40px;
+    height: 50px;
+    border-radius: 25px;
+     box-shadow:4px 12px 12px rgba(159, 70, 70, 0.537);
+}
+.logo{
+     color: rgba(140, 12, 12, 0.373);
+    font-size: 100px;
+    font-weight: bolder;
+    font-style: italic;
+    width: 500px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    font-size: 25px;
+    color: rgba(140, 12, 12, 0.373);
+    
+}
+.nav-links a{
+    text-decoration: none;
+    color:rgba(140, 12, 12, 0.373) ;
+    font-weight: bold;
+}
+.nav-links a:hover{
+    color: aqua;
+}
+.footer-section{
+ background-color: antiquewhite;
+ color:rgba(140, 12, 12, 0.373) ;
+ text-align: center; 
+ padding: 15px 15px;
+ object-fit: fill;   
+}
+.hero-section{
+    height:100vh ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    font-weight: bold;
+    gap: -10px;
+
+}
+#img{
+    width: fit-content;
+   height: 500px;
+   border-radius: 45%;
+   padding: 5px;
+   object-fit: cover;
+   box-shadow:4px 12px 12px rgba(159, 70, 70, 0.537);
+
+}
+
+
+
+#para{
+  color: #4a4a4a;           
+  line-height: 1.7;         
+  font-size: 1.1rem;        
+  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif; 
+  margin-bottom: 1.5em;     
+  text-align: left;         
+  max-width: 650px;         
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;          
+  border: #4a4a4a;
+}
+.contact-section{
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+}
+#bout{
+    text-align: center;
+    color: brown;
+}
+.header{
+    text-align: center;
+     color: brown;
+
+}
+#skills{
+    text-align: center;
+    list-style: none;
+     color: rgb(208, 72, 72);
+      font-size: large;
+}
+#Hobbies{
+    text-align: center;
+    list-style: none;
+     color: rgb(201, 71, 71);
+     font-size: large;
+}
+.skills{
+    text-align: center;
+    list-style: none;
+    color: brown;
+}
